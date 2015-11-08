@@ -20,7 +20,7 @@ kramdown:
 
 
 # 地址设置
-baseurl: "/Base"
+baseurl: "/Blog"
 url: "http://127.0.0.1:4000"
 
 
