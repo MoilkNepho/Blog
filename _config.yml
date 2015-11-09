@@ -34,7 +34,9 @@ sass:
     style: :compressed
 
 # duoshuo设置
-# duoshuo_shortname: 
-
-# 百度统计设置
-# baidu_analysis:
+comments:
+    provider: duoshuo
+    duoshuo:
+    	short_name: liberize
+    disqus:
+    	short_name:liberize
