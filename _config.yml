@@ -11,16 +11,11 @@ weibo_username: Moilknepho
 github_username: MoilkNepho
 
 # Markdown设置
-markdown: kramdown
-# coderay设置
-use_coderay: true
-coderay:
-    coderay_line_numbers: nil
-# highlight
-# 本地用rouge, github上用pygments
-syntax_highlighter: rouge
-# highlighter: rouge
-# highlighter: false
+kramdown:
+  input:  GFM
+  use_coderay: true
+  coderay:
+    coderay_line_numbers:  nil
 
 
 
