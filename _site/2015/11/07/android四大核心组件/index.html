@@ -50,6 +50,83 @@
 
   <div class="container page-content">
     <div class="container">
+    <div class="col-md-3 col-sidebar">
+        <!-- 分类列表 -->
+<div class="panel panel-default categories">
+    <div class="panel-heading title">
+        文章分类
+    </div>
+    <div class="panel-body list">
+        <ul>
+          <li>
+              <a class="catelink" href="/Blog/category/#all" data-target-cate="#all">
+                  所有分类&nbsp;<span class="count">[5]</span>
+              </a>
+          </li>
+          
+          <li>
+              <a class="catelink" href="/Blog/category/#Android开发" data-target-cate="#Android开发">
+                  Android开发&nbsp;<span class="count">[2]</span>
+              </a>
+          </li>
+
+          
+          <li>
+              <a class="catelink" href="/Blog/category/#Linux" data-target-cate="#Linux">
+                  Linux&nbsp;<span class="count">[1]</span>
+              </a>
+          </li>
+
+          
+          <li>
+              <a class="catelink" href="/Blog/category/#计算机网络" data-target-cate="#计算机网络">
+                  计算机网络&nbsp;<span class="count">[1]</span>
+              </a>
+          </li>
+
+          
+          <li>
+              <a class="catelink" href="/Blog/category/#Java" data-target-cate="#Java">
+                  Java&nbsp;<span class="count">[1]</span>
+              </a>
+          </li>
+
+          
+        </ul>
+    </div>
+</div>
+
+        <!-- tag列表 -->
+<div class="panel panel-default tags">
+    <div class="panel-heading title">
+        标签云
+    </div>
+    <div class="panel-body list">
+        
+            <a class="taglink" href="/Blog/tag/#Android" data-target-cate="#Android">
+                Android
+            </a>
+        
+            <a class="taglink" href="/Blog/tag/#Linux" data-target-cate="#Linux">
+                Linux
+            </a>
+        
+            <a class="taglink" href="/Blog/tag/#CAT-5" data-target-cate="#CAT-5">
+                CAT-5
+            </a>
+        
+            <a class="taglink" href="/Blog/tag/#Java" data-target-cate="#Java">
+                Java
+            </a>
+        
+            <a class="taglink" href="/Blog/tag/#编程语言" data-target-cate="#编程语言">
+                编程语言
+            </a>
+        
+    </div>
+</div>
+
+    </div>
     <div class="col-md-9 col-content">
         <div id="post-content" class="panel panel-pithy post">
             <div class="panel-heading">
@@ -332,83 +409,6 @@ var duoshuoQuery = {short_name:"moilk"};
 </div>
 
     </div>
-    <div class="col-md-3 col-sidebar">
-        <!-- 分类列表 -->
-<div class="panel panel-default categories">
-    <div class="panel-heading title">
-        文章分类
-    </div>
-    <div class="panel-body list">
-        <ul>
-          <li>
-              <a class="catelink" href="/Blog/category/#all" data-target-cate="#all">
-                  所有分类&nbsp;<span class="count">[5]</span>
-              </a>
-          </li>
-          
-          <li>
-              <a class="catelink" href="/Blog/category/#Android开发" data-target-cate="#Android开发">
-                  Android开发&nbsp;<span class="count">[2]</span>
-              </a>
-          </li>
-
-          
-          <li>
-              <a class="catelink" href="/Blog/category/#Linux" data-target-cate="#Linux">
-                  Linux&nbsp;<span class="count">[1]</span>
-              </a>
-          </li>
-
-          
-          <li>
-              <a class="catelink" href="/Blog/category/#计算机网络" data-target-cate="#计算机网络">
-                  计算机网络&nbsp;<span class="count">[1]</span>
-              </a>
-          </li>
-
-          
-          <li>
-              <a class="catelink" href="/Blog/category/#Java" data-target-cate="#Java">
-                  Java&nbsp;<span class="count">[1]</span>
-              </a>
-          </li>
-
-          
-        </ul>
-    </div>
-</div>
-
-        <!-- tag列表 -->
-<div class="panel panel-default tags">
-    <div class="panel-heading title">
-        标签云
-    </div>
-    <div class="panel-body list">
-        
-            <a class="taglink" href="/Blog/tag/#Android" data-target-cate="#Android">
-                Android
-            </a>
-        
-            <a class="taglink" href="/Blog/tag/#Linux" data-target-cate="#Linux">
-                Linux
-            </a>
-        
-            <a class="taglink" href="/Blog/tag/#CAT-5" data-target-cate="#CAT-5">
-                CAT-5
-            </a>
-        
-            <a class="taglink" href="/Blog/tag/#Java" data-target-cate="#Java">
-                Java
-            </a>
-        
-            <a class="taglink" href="/Blog/tag/#编程语言" data-target-cate="#编程语言">
-                编程语言
-            </a>
-        
-    </div>
-</div>
-
-    </div>
 </div>
 
   </div>
@@ -418,8 +418,10 @@ var duoshuoQuery = {short_name:"moilk"};
   	<div id="totop" class="totop">
       		<i class="fa fa-chevron-up"></i>
   	</div>
-  	<div><a href="http://duras.wang"><img src="/Blog/assets/images/logo1.png" alt="duras.wang"/></a></div>
-  	<div class="cent">感谢<a href="https://github.com/guovz/jekyll-pithy">Guovz Pithy</a>提供的Jekyll模板</div>
+  	<div class="cent">
+	  	<div><a href="http://duras.wang"><img src="/Blog/assets/images/logo1.png" alt="duras.wang"/></a></div>
+	  	<div class="cent">感谢由<a href="https://github.com/guovz/jekyll-pithy">Guovz Pithy</a>提供的Jekyll模板</div>
+	</div>
   </div>
 </footer>
 
