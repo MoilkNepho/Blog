@@ -15,12 +15,12 @@
 		  color: $white;
 
 		  border-radius: 7px;
-		  background-color: $gray;
+		  background-color: $gray-light;
 
 		  cursor: pointer;
 
 		  &:hover{
-		    background-color: $gray-dark;
+		    background-color: $gray;
 		  }
 	}
 }

@@ -1,14 +1,5 @@
 .footer{
 	text-align: center;
-	.title{
-		color:$gray;
-		&:hover{
-			color:$gray-darker;
-		}
-	}
-	.cent{
-		padding-left:10px;
-	}
 	.totop{
   		display: none;
 
@@ -24,12 +15,12 @@
 		  color: $white;
 
 		  border-radius: 7px;
-		  background-color: $gray;
+		  background-color: $gray-light;
 
 		  cursor: pointer;
 
 		  &:hover{
-		    background-color: $gray-dark;
+		    background-color: $gray;
 		  }
 	}
 }
