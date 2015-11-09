@@ -11,7 +11,7 @@
        width: 80px;
 
        border-radius: 100%;
-       border: 4px solid $gray-light;
+       border: 4px solid $gray-lighter;
     }
   }
   .social{
@@ -22,6 +22,8 @@
         height: 30px;
         width: 30px;
         margin-right: 5px;
+
+        border: 1px solid $gray-lighter;
       }
       li>a{
         display: inline-block;
