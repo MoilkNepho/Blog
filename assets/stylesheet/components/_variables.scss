@@ -1,11 +1,11 @@
 /* 颜色定义 */
-$gray-darkest       : #333;
-$gray-darker        : #666;
-$gray-dark          : #999;
-$gray               : #ccc;
-$gray-light         : #ddd;
-$gray-lighter       : #eee;
-$gray-lightest      : #f8f8f8;
+$gray-darkest       : #0a0608;
+$gray-darker        : #33212a;
+$gray-dark          : #33212a;
+$gray               : #5d3b4c;
+$gray-light         : #915c76;
+$gray-lighter       : #af8298;
+$gray-lightest      : #ddcad4;
 
 $black              : #000000;
 $white              : #FFFFFF;
@@ -14,6 +14,7 @@ $red                : #e74c3c;
 $purple             : #493252;
 $slate              : #3d4260;
 $blue               : #00a3cf;
+$bule-deep	: #006e8b
 
 $primary-color      : lighten($blue,5%);
 $secondary-color    : $gray-dark;

@@ -1,7 +1,7 @@
 .navbar-pithy {
   min-height: 40px;
 
-  background-color: #c5d20b;
+  background-color: $gray;
   border: none;
   border-radius: 0;
   box-shadow: 1px 1px 3px $gray-dark;
@@ -10,11 +10,11 @@
     height: 40px;
     padding: 10px 15px;
 
-    color: #1f35a7;
+    color: $white;
   }
 
   .navbar-brand:hover{
-    color: #0f1651;
+    color: $blue;
   }
 
   .navbar-form {
@@ -24,20 +24,20 @@
   .navbar-nav > li > a {
     padding-top: 10px;
     padding-bottom: 10px;
-    color: #03434a;
+    color: $white;
     line-height: 20px;
     border: none;
   }
 
   .navbar-nav > li > a:hover {
-      background-color: #97a109;
+      background-color: $gray-light;
   }
 
   .navbar-toggle{
     margin-top: 4px;
     margin-bottom: 0;
     padding:5px 10px;
-    background: $primary-color;
+    background: $gray-darkest;
     color: $white;
   }
 }
