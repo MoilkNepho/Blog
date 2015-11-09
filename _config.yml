@@ -11,11 +11,14 @@ weibo_username: Moilknepho
 github_username: MoilkNepho
 
 # Markdown设置
-kramdown:
-  input:  GFM
-  use_coderay: true
-  coderay:
-    coderay_line_numbers:  nil
+markdown: kramdown
+paginate: 10
+paginate_path: "page:num"
+# highlight
+# 本地用rouge, github上用pygments
+highlighter: pygments
+# highlighter: rouge
+# highlighter: false
 
 
 
@@ -37,6 +40,6 @@ sass:
 comments:
     provider: duoshuo
     duoshuo:
-    	short_name: liberize
+    	short_name: moilk
     disqus:
-    	short_name:liberize
+    	short_name:moilk
