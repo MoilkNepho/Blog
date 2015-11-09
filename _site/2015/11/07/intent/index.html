@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="zh_cn">
+  <head>
+    <title>Intent</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="keywords" content="Intent,Android开发, Android,,Moilk" />
+    <meta name="description" content="Intent, Android开发, Android, Intent是一种在不同组件之间传递的请求消息，是应用程序发出的请求和意图。" />
+
+  <!--官方css引入-->
+  <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <link href="//cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet">
+
+  <!-- pithy样式引入 -->
+  <link rel="stylesheet" href="/Blog/assets/stylesheet/pithy.css">
+
+  <!--bootstrap支持IE8-->
+  <!--[if lt IE 9]>
+  <script src="https://cdn.bootcss.com/html5shiv/3.7.2/html5shiv-printshiv.js"></script>
+  <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.js"></script>
+  <![endif]-->
+  <link rel="alternate" type="application/rss+xml" title="Moilk Blog" href="http://127.0.0.1:4000/Blog/feed.xml" />
+</head>
+
+<body>
+<!-- 导航菜单 -->
+  <nav class="navbar navbar-pithy" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#pithy-navbar" aria-expanded="false">
+                <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="/Blog/">Moilk blog</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="pithy-navbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="http://duras.wang/">首页</a></li>
+                <li class="active"><a href="/Blog/">博客</a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+  <div class="container page-content">
+    <div class="container">
+    <div class="col-md-3 col-sidebar">
+        <!-- 分类列表 -->
+<div class="panel panel-default categories">
+    <div class="panel-heading title">
+        文章分类
+    </div>
+    <div class="panel-body list">
+        <ul>
+          <li>
+              <a class="catelink" href="/Blog/category/#all" data-target-cate="#all">
+                  所有分类&nbsp;<span class="count">[5]</span>
+              </a>
+          </li>
+          
+          <li>
+              <a class="catelink" href="/Blog/category/#Android开发" data-target-cate="#Android开发">
+                  Android开发&nbsp;<span class="count">[2]</span>
+              </a>
+          </li>
+
+          
+          <li>
+              <a class="catelink" href="/Blog/category/#Linux" data-target-cate="#Linux">
+                  Linux&nbsp;<span class="count">[1]</span>
+              </a>
+          </li>
+
+          
+          <li>
+              <a class="catelink" href="/Blog/category/#计算机网络" data-target-cate="#计算机网络">
+                  计算机网络&nbsp;<span class="count">[1]</span>
+              </a>
+          </li>
+
+          
+          <li>
+              <a class="catelink" href="/Blog/category/#Java" data-target-cate="#Java">
+                  Java&nbsp;<span class="count">[1]</span>
+              </a>
+          </li>
+
+          
+        </ul>
+    </div>
+</div>
+
+        <!-- tag列表 -->
+<div class="panel panel-default tags">
+    <div class="panel-heading title">
+        标签云
+    </div>
+    <div class="panel-body list">
+        
+            <a class="taglink" href="/Blog/tag/#Android" data-target-cate="#Android">
+                Android
+            </a>
+        
+            <a class="taglink" href="/Blog/tag/#Linux" data-target-cate="#Linux">
+                Linux
+            </a>
+        
+            <a class="taglink" href="/Blog/tag/#CAT-5" data-target-cate="#CAT-5">
+                CAT-5
+            </a>
+        
+            <a class="taglink" href="/Blog/tag/#Java" data-target-cate="#Java">
+                Java
+            </a>
+        
+            <a class="taglink" href="/Blog/tag/#编程语言" data-target-cate="#编程语言">
+                编程语言
+            </a>
+        
+    </div>
+</div>
+
+    </div>
+    <div class="col-md-9 col-content">
+        <div id="post-content" class="panel panel-pithy post">
+            <div class="panel-heading">
+                <h3 class="title">
+                  <i class="fa fa-bookmark-o"></i>Intent
+                </h3>
+                <ul class="info">
+                    <li>作者：<span class="author">Moilk</span></li>
+                    <li>最后编辑：2015年11月07日</li>
+                    <li>标签：
+                     
+                         <a class="tag" href="/Blog/tag/#Android">Android</a>
+                     
+                    </li>
+                </ul>
+            </div>
+            <div class="panel-body content">
+                <h2 id="intentintent">Intent与Intent的概念</h2>
+<ul>
+  <li>intent：Intent是一种在不同组件之间传递的请求消息，是应用程序发出的请求和意图。作为一个完整的消息传递机制，Intent不仅需要发送端，还需要接收端。</li>
+  <li>IntentFilter：用来描述一个基本组件的地址</li>
+</ul>
+
+<h2 id="intent">显示Intent</h2>
+<ul>
+  <li>明确指出了目标组件名称</li>
+</ul>
+
+<p><code>java
+Intent intent=new Intent();
+intent.setComponent(new ComponentName("com.moilk.learningintent","com.moilk.learningintent.Aty1"));
+</code></p>
+
+<h2 id="intent-1">隐式Intent</h2>
+<ul>
+  <li>没有明确指出目标组件名称,使用IntentFilter来寻找与隐式Intent相关的对象</li>
+</ul>
+
+<p>```java
+// 在AndroidManifest中为Activity添加intent-filter</p>
+<intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+</intent-filter>
+
+<p>// 
+```</p>
+
+            </div>
+            <!-- 文章分享 -->
+<div class="panel-footer operate">
+    <div class="pull-left">
+        <div class="ds-share flat" data-thread-key="/2015/11/07/Intent" data-title="Intent" data-images=""
+             data-content="Intent" data-url="/Bloghttp://127.0.0.1:4000/2015/11/07/intent/">
+            <div class="ds-share-inline">
+              <ul  class="ds-share-icons-16">
+
+                <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
+                <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
+                <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
+                <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
+                <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+              </ul>
+              <div class="ds-share-icons-more">
+              </div>
+            </div>
+         </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+        </div>
+        <!-- 评论 -->
+<div id="post-comment" class="panel panel-default">
+    <div class="panel-body">
+        <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="page.id" data-title="page.title" data-url="page.url"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"moilk"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+    </script>
+<!-- 多说公共JS代码 end -->
+
+    </div>
+</div>
+
+    </div>
+</div>
+
+  </div>
+
+  <footer>
+<div class="footer">
+  	<div id="totop" class="totop">
+      		<i class="fa fa-chevron-up"></i>
+  	</div>
+  	<div class="cent">
+	  	<div><a href="http://duras.wang"><img src="/Blog/assets/images/logo1.png" alt="duras.wang"/></a></div>
+	  	<div class="cent">感谢由<a href="https://github.com/guovz/jekyll-pithy">Guovz Pithy</a>提供的Jekyll模板</div>
+	</div>
+  </div>
+</footer>
+
+
+  <!--官方JS引入-->
+<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="/Blog/assets/script/pithy.js"></script>
+
+
+  <!-- 百度统计 -->
+<script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+
+</body>
+</html>

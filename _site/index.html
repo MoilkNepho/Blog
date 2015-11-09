@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh_cn">
+  <head>
+    <title>Moilk Blog</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="keywords" content=", ,Moilk" />
+    <meta name="description" content=",   Moilk的个人博客" />
+
+  <!--官方css引入-->
+  <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <link href="//cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet">
+
+  <!-- pithy样式引入 -->
+  <link rel="stylesheet" href="/Blog/assets/stylesheet/pithy.css">
+
+  <!--bootstrap支持IE8-->
+  <!--[if lt IE 9]>
+  <script src="https://cdn.bootcss.com/html5shiv/3.7.2/html5shiv-printshiv.js"></script>
+  <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.js"></script>
+  <![endif]-->
+  <link rel="alternate" type="application/rss+xml" title="Moilk Blog" href="http://127.0.0.1:4000/Blog/feed.xml" />
+</head>
+
+<body>
+<!-- 导航菜单 -->
+  <nav class="navbar navbar-pithy" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#pithy-navbar" aria-expanded="false">
+                <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="/Blog/">Moilk blog</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="pithy-navbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="http://duras.wang/">首页</a></li>
+                <li class="active"><a href="/Blog/">博客</a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+  <div class="container page-content">
+    <div class="col-md-3 col-sidebar">
+    <div class="panel panel-pithy author">
+    <div class="panel-heading avastar">
+        <img src="/Blog/assets/images/moilk.png" alt="Moilk Nepho"/>
+    </div>
+    <div class="panel-body">
+        Stay hungry,stay foolish.
+    </div>
+    <div class="panel-footer social">
+        <ul>
+            <li class="weibo"><a href="http://weibo.com/moilk/" alt="新浪微博" target="_blank"><i class="fa fa-weibo"></i></a></li>
+            <li class="github"><a href="https://github.com/moilknepho" alt="github" target="_blank"><i class="fa fa-github"></i></a></li>
+            <li class="facebook"><a href="https://www.facebook.com/moilknepho" alt="facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li class="rss"><a href="/Blog/feed.xml" alt="订阅" target="_blank"><i class="fa fa-rss"></i></a></li>
+        </ul>
+    </div>
+</div>
+
+    <!-- 分类列表 -->
+<div class="panel panel-default categories">
+    <div class="panel-heading title">
+        文章分类
+    </div>
+    <div class="panel-body list">
+        <ul>
+          <li>
+              <a class="catelink" href="/Blog/category/#all" data-target-cate="#all">
+                  所有分类&nbsp;<span class="count">[5]</span>
+              </a>
+          </li>
+          
+          <li>
+              <a class="catelink" href="/Blog/category/#Android开发" data-target-cate="#Android开发">
+                  Android开发&nbsp;<span class="count">[2]</span>
+              </a>
+          </li>
+
+          
+          <li>
+              <a class="catelink" href="/Blog/category/#Linux" data-target-cate="#Linux">
+                  Linux&nbsp;<span class="count">[1]</span>
+              </a>
+          </li>
+
+          
+          <li>
+              <a class="catelink" href="/Blog/category/#计算机网络" data-target-cate="#计算机网络">
+                  计算机网络&nbsp;<span class="count">[1]</span>
+              </a>
+          </li>
+
+          
+          <li>
+              <a class="catelink" href="/Blog/category/#Java" data-target-cate="#Java">
+                  Java&nbsp;<span class="count">[1]</span>
+              </a>
+          </li>
+
+          
+        </ul>
+    </div>
+</div>
+
+    <!-- tag列表 -->
+<div class="panel panel-default tags">
+    <div class="panel-heading title">
+        标签云
+    </div>
+    <div class="panel-body list">
+        
+            <a class="taglink" href="/Blog/tag/#Android" data-target-cate="#Android">
+                Android
+            </a>
+        
+            <a class="taglink" href="/Blog/tag/#Linux" data-target-cate="#Linux">
+                Linux
+            </a>
+        
+            <a class="taglink" href="/Blog/tag/#CAT-5" data-target-cate="#CAT-5">
+                CAT-5
+            </a>
+        
+            <a class="taglink" href="/Blog/tag/#Java" data-target-cate="#Java">
+                Java
+            </a>
+        
+            <a class="taglink" href="/Blog/tag/#编程语言" data-target-cate="#编程语言">
+                编程语言
+            </a>
+        
+    </div>
+</div>
+
+</div>
+<div class="col-md-9 col-content">
+    
+    <nav>
+        <ul class="pagination pagination-posts">
+          
+        </ul>
+    </nav>
+</div>
+
+  </div>
+
+  <footer>
+<div class="footer">
+  	<div id="totop" class="totop">
+      		<i class="fa fa-chevron-up"></i>
+  	</div>
+  	<div class="cent">
+	  	<div><a href="http://duras.wang"><img src="/Blog/assets/images/logo1.png" alt="duras.wang"/></a></div>
+	  	<div class="cent">感谢由<a href="https://github.com/guovz/jekyll-pithy">Guovz Pithy</a>提供的Jekyll模板</div>
+	</div>
+  </div>
+</footer>
+
+
+  <!--官方JS引入-->
+<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="/Blog/assets/script/pithy.js"></script>
+
+
+  <!-- 百度统计 -->
+<script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+
+</body>
+</html>
