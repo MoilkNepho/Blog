@@ -10,7 +10,7 @@
     height: 40px;
     padding: 10px 15px;
 
-    color: #17227c;
+    color: #1f35a7;
   }
 
   .navbar-brand:hover{
@@ -24,20 +24,20 @@
   .navbar-nav > li > a {
     padding-top: 10px;
     padding-bottom: 10px;
-    color: #0d1e23;
+    color: #03434a;
     line-height: 20px;
     border: none;
   }
 
   .navbar-nav > li > a:hover {
-      background-color: #0d1e23;
+      background-color: #97a109;
   }
 
   .navbar-toggle{
     margin-top: 4px;
     margin-bottom: 0;
     padding:5px 10px;
-    background: #f0f87e;
+    background: $primary-color;
     color: $white;
   }
 }
