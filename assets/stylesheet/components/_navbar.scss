@@ -1,7 +1,7 @@
 .navbar-pithy {
   min-height: 40px;
 
-  background-color: #FBAE54;
+  background-color: #ccae1b;
   border: none;
   border-radius: 0;
   box-shadow: 1px 1px 3px $gray-dark;
@@ -10,11 +10,12 @@
     height: 40px;
     padding: 10px 15px;
 
-    color: $primary-color;
+    color: #f74afb;
+    text-shadow: 1px 1px 1px #fef0ff;
   }
 
   .navbar-brand:hover{
-    color: $primary-color;
+    color: #d505da;
   }
 
   .navbar-form {
