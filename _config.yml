@@ -12,7 +12,6 @@ github_username: MoilkNepho
 
 # Markdown设置
 markdown: kramdown
-kramdown:GFM
 # coderay设置
 use_coderay: true
 coderay:
