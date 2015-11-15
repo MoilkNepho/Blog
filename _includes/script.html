@@ -1,8 +1,18 @@
 <!--官方JS引入-->
 <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.js"></script>
 <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
 <script src="{{ site.baseurl}}/assets/script/pithy.js"></script>
+
+<!-- 代码高亮 -->
+<link rel="stylesheet" href="/assets/script/prettify/prettify.css">
+<script src="/assets/script/prettify/prettify.js"></script>
+<script type="text/javascript">
+  $(function(){
+    $("pre").addClass("prettyprint");
+    prettyPrint();
+  });
+</script>
+
 {% for script in page.scripts %}
   <script type="text/javascript" src="{{'/assets/script/' | append: script | prepend: site.baseurl }}"></script>
 {% endfor %}
