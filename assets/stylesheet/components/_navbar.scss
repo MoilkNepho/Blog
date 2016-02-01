@@ -1,9 +1,9 @@
 .navbar-pithy {
   min-height: 40px;
-  background-color: $gray;
+  background-color: $gray-dark;
   border: none;
   border-radius: 0;
-  box-shadow: 1px 1px 3px $gray-dark;
+  box-shadow: 1px 1px 3px $gray-darker;
 
   .navbar-brand {
     height: 40px;
@@ -36,10 +36,10 @@
     margin-top: 4px;
     margin-bottom: 0;
     padding:5px 10px;
-    background: $gray-light;
+    background: $gray;
     color: $white;
   }
   .navbar-toggle:hover {
-    background: $gray-dark;
+    background: $gray-darker;
   }
 }
