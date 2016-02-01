@@ -59,6 +59,7 @@
 
 /* Put a border around prettyprinted code snippets. */
 pre.prettyprint {
+  font-size: 10px;
   padding: 10px;
   border: 1px solid #eee; }
 
