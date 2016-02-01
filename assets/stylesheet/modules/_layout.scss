@@ -1,19 +1,20 @@
 .col-content{
-	padding-left: 0;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 .col-sidebar{
-	padding-left: 0;
+	padding-left: 0px;
 	padding-right: 16px;
 }
 
 @media screen and (max-width: 992px) {
 	.col-content{
-		padding-right: 0;
+		padding-right: 0px;
 	}
 
 	.col-sidebar{
-		padding-left: 0;
+		padding-left: 0px;
 		padding-right: 0px;
 	}
 }
