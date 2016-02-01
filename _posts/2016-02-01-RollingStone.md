@@ -35,6 +35,7 @@ The rolling stones stop at the sea
 滚石会在海里停下
 And that's where I'll be
 那里就是我最后的归所
+![Stone](http://duras.wang/Blog/assets/images/stone.jpg)
 Sometimes I'm sure I know no one
 有时候，我很确定我不认识所有人
 A thousand faces but no names
@@ -59,9 +60,9 @@ For we both know too well the rolling stones turn in to sand
 因为我们都清楚，巨石终会化成砂砾
 If they don't find a place to stand
 只要它们找不到立身之地
-![Stone](http://duras.wang/Blog/assets/images/stone.jpg)
+![Stone](http://duras.wang/Blog/assets/images/tramp.jpg)
 
 ******************************************
 
-> Sometimes I feel like I’m falling 
+> Sometimes I feel like I'm falling
 Falling fast and falling free
