@@ -18,7 +18,7 @@ She said it's cause I'm always moving
 她说，这是因为我漂浮不定
 I never notice cause I never stand still
 我从未留意，因为我从未安定下来
-![Passenger](../assets/images/Passenger.jpg)
+![Passenger](http://duras.wang/Blog/assets/images/Passenger.jpg)
 Sometimes I feel like I'm falling
 有时候，我觉得自己在堕落
 Falling fast and falling free
@@ -59,7 +59,7 @@ For we both know too well the rolling stones turn in to sand
 因为我们都清楚，巨石终会化成砂砾
 If they don't find a place to stand
 只要它们找不到立身之地
-![Stone](../assets/images/stone.jpg)
+![Stone](http://duras.wang/Blog/assets/images/stone.jpg)
 
 ******************************************
 
