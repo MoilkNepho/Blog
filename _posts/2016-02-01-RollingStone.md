@@ -9,7 +9,7 @@ excerpt: "Rolling Stone - passenger"
 ## Rolling Stone 
 **歌手:** Passenger    **专辑:** Whispers  
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=283 height=86 src="http://music.163.com/outchain/player?type=2&id=28613253&auto=1&height=66"></iframe>  
+<embed src="http://music.163.com/style/swf/widget.swf?sid=28613253&type=2&auto=1&width=320&height=66" width="340" height="86"  allowNetworking="all"></embed>  
 
 *****************************
 Sometimes I feel I'm going nowhere
