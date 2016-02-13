@@ -8,6 +8,31 @@
 	padding-right: 16px;
 }
 
+table {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#ffffff;
+	border-radius: 3px;
+	border-width: 1px;
+	border-color: #ffffff;
+	border-collapse: collapse;
+}
+table th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #ffffff;
+	background-color: #575757;
+}
+table td {
+	color: #000000;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #ffffff;
+	background-color: #ffffff;
+}
+
 @media screen and (max-width: 992px) {
 	.col-content{
 		padding-right: 0px;
