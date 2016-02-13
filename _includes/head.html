@@ -1,11 +1,11 @@
 <head>
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta name="keywords" content="{{ page.title }},{% for category in page.categories %}{{ category }},{% endfor %} {% for tag in page.tags %}{{ tag }},{% endfor %},{{ site.keywords }}" />
-    <meta name="description" content="{{ page.title }}, {% for category in page.categories %}{{ category }},{% endfor %} {% for tag in page.tags %}{{ tag }},{% endfor %} {% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+  <meta name="keywords" content="{{ page.title }},{% for category in page.categories %}{{ category }},{% endfor %} {% for tag in page.tags %}{{ tag }},{% endfor %},{{ site.keywords }}" />
+  <meta name="description" content="{{ page.title }}, {% for category in page.categories %}{{ category }},{% endfor %} {% for tag in page.tags %}{{ tag }},{% endfor %} {% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
 
   <!--官方css引入-->
   <link href="http://duras.wang/Blog/assets/stylesheet/bootstrap.css" rel="stylesheet">
@@ -20,4 +20,6 @@
   <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.js"></script>
   <![endif]-->
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" />
+  {% include baidu-analysis.html %}
+
 </head>
