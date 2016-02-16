@@ -1,6 +1,22 @@
-<!-- 文章分享 -->
-<div class="panel-footer">
-    <div class="pull-left">
-        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"slide":{"type":"slide","bdImg":"5","bdPos":"right","bdTop":"250"},"image":{"viewList":["qzone","tsina","weixin","sqq"],"viewText":"分享到：","viewSize":"16"}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>    </div>
-    <div class="clearfix"></div>
+<div class="share">分享到:
+	<a href="javascript:share.qq();"><img src="{{site.baseurl}}/assets/images/px16/qq.png" alt="qq" /></a>&nbsp
+	<a href="javascript:share.weibo();"><img src="{{site.baseurl}}/assets/images/px16/weibo.png" alt="weibo" /></a>&nbsp
+	<a href="javascript:share.weixin();"><img src="{{site.baseurl}}/assets/images/px16/wechat.png" alt="wechat" /></a>&nbsp
+	<a href="javascript:share.qzone();"><img src="{{site.baseurl}}/assets/images/px16/qzone.png" alt="qzone" /></a>&nbsp
+	<a class="sharetotqq" href="javascript:;"><img src="{{site.baseurl}}/assets/images/px16/tqq.png" alt="tqq" /></a>&nbsp
+	<a href="javascript:share.renren();"><img src="{{site.baseurl}}/assets/images/px16/renren.png" alt="renren" /></a>&nbsp
+	<a href="javascript:share.douban();"><img src="{{site.baseurl}}/assets/images/px16/douban.png" alt="douban" /></a>&nbsp
 </div>
+
+<script src="{{site.baseurl}}/js/simple-share.min.js"></script>
+<script>
+	var share = new SimpleShare({
+		url: '',
+		title: '',
+		content: '',
+		pic: ''
+	});
+	document.querySelector('.sharetotqq').addEventListener('click',function() {
+		share.tqq();
+	});
+</script>
