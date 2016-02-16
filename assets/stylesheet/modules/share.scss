@@ -4,21 +4,14 @@
 	font-size: 12px;
 }
 
-.share ul{
-	list-style: none !important;
-}
-
-.share li{
-	float: left;
-	width: 28px;
-	height:28px;
-	text-align: center;
+.share a:hover{
+	font-style: normal;
 }
 
 .share .icon {
 	font-size: 24px;
 	line-height: 100px;
-	margin: 10px 0;
+	margin: 8px 0;
 	color:#333;
 	-webkit-transition: font-size 0.25s ease-out 0s;
 	-moz-transition: font-size 0.25s ease-out 0s;
@@ -26,6 +19,6 @@
 }
 
 .share .icon:hover{
-	font-size: 28px;
+	color: #555;
 	font-style: normal;
 }
