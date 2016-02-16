@@ -12,13 +12,10 @@
 .share .icon {
 	font-size: 24px;
 	color:#333;
-	-webkit-transition: font-size 0.25s ease-out 0s;
-	-moz-transition: font-size 0.25s ease-out 0s;
-	transition: font-size 0.25s ease-out 0s;
 }
 
 .share .icon:hover{
-	font-size: 28px;
 	font-style: normal;
 	text-decoration: none;
+	color:green;
 }
