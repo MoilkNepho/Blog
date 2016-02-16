@@ -21,7 +21,7 @@ highlighter: pygments
 
 
 # 地址设置
-baseurl: "/Blog"
+baseurl: "/blog"
 url: "http://127.0.0.1:4000"
 
 

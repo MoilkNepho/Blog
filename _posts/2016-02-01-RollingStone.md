@@ -20,7 +20,7 @@ She said it's cause I'm always moving
 她说，这是因为我漂浮不定  
 I never notice cause I never stand still  
 我从未留意，因为我从未安定下来  
-![Passenger](http://duras.wang/Blog/assets/images/Passenger.jpg)  
+![Passenger](http://duras.wang/blog/assets/images/Passenger.jpg)  
 Sometimes I feel like I'm falling  
 有时候，我觉得自己在堕落  
 Falling fast and falling free  
@@ -37,7 +37,7 @@ The rolling stones stop at the sea
 滚石会在海里停下  
 And that's where I'll be  
 那里就是我最后的归所  
-![Stone](http://duras.wang/Blog/assets/images/stone.jpg)  
+![Stone](http://duras.wang/blog/assets/images/stone.jpg)  
 Sometimes I'm sure I know no one  
 有时候，我很确定我不认识所有人  
 A thousand faces but no names  
@@ -62,7 +62,7 @@ For we both know too well the rolling stones turn in to sand
 因为我们都清楚，巨石终会化成砂砾  
 If they don't find a place to stand  
 只要它们找不到立身之地  
-![Stone](http://duras.wang/Blog/assets/images/tramp.jpg)  
+![Stone](http://duras.wang/blog/assets/images/tramp.jpg)  
 
 ******************************************
 
