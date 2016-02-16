@@ -28,8 +28,13 @@
     border: none;
   }
 
+  .navbar-nav .icon{
+    font-size: 16px;
+    color:white;
+  }
+
   .navbar-nav > li > a:hover {
-      background-color: $gray-light;
+    background-color: $gray-light;
   }
 
   .navbar-toggle{
