@@ -6,7 +6,7 @@
 
 
 .pagination-posts li a {
-  color: #695c76;
+  color: black;
   border-color: #695c76;
 }
 
@@ -16,8 +16,9 @@
   z-index: 2;
   color: #fff;
   cursor: default;
-  background-color: white;
-  border-color: #695c76;
+  background-color: #695c76;
+  border-color: #E3E3E3;
+  border-right-color: #695c76;
 }
 .pagination-posts li a:hover{
   color:white;
