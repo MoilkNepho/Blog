@@ -1,18 +1,26 @@
 .pagination-posts{
   margin-top: 0;
   margin-bottom: 0;
+  text-align: center;
+}
 
-  li>a{
-    color: $gray-darker;
-  }
 
-  .active>span,
-  .active>span:focus,
-  .active>span:hover {
-    z-index: 2;
-    color: #fff;
-    cursor: default;
-    background-color: $primary-color;
-    border-color: $primary-color;
-  }
+.pagination-posts li a {
+  color: #695c76;
+  border-color: #695c76;
+}
+
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+  z-index: 2;
+  color: #fff;
+  cursor: default;
+  background-color: white;
+  border-color: #695c76;
+}
+.pagination-posts li a:hover{
+  color:white;
+  background-color: green;
+  border-color: green;
 }
