@@ -6,20 +6,12 @@ categories: [分类名]
 author: 在这写上作者名
 excerpt: "在这写上摘记..."
 ---
-
-```flow
-st=>start: Start
-e=>end
-op=>operation: My Operation
-cond=>condition: Yes or No?
-
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
-
-```sequence
-Alice->Bob: Hello Bob, how are you?
-Note right of Bob: Bob thinks
-Bob-->Alice: I am good thanks!
-```
+处理器执行的程序是由一组保存在存储器中的指令组成，最简单的描述，指令处理包括两个阶段：取指和执行。程序执行就是不断地重复这两步。当然，复杂情况下指令的执行还包括很多的步骤，这和指令自身有关系。  
+如下图所示为简化的MIPS五段流水示意图，指令周期被分为取指、译码、执行、访存和写回五个阶段。有些指令需要经历所有的五段，而有些指令只需要经历五段中的一部分，如跳转指令一般只经历前3或者前4段。  
+![MIPS五段流水]({{site.baseurl}}/assets/images/OS/Pipeline_MIPS.png)  
+接下来以MIPS标准指令集中的addi指令为例描述一下指令 的执行过程：
+1） 时钟上升沿，addi指令从指令存储器中取出并锁存，pc自增指向下一条指令；  
+2) 下一个上升沿，控制器根据addi指令输出各种控制信号，有些控制信号在执行段生效，有些放入锁存器；取出指令中rs号寄存器的值放入锁存器；指令中立即数部分经过符号扩展器后保存在锁存其中；
+3) 在EXE段，运算器进行加运算，操作数X为从RS寄存器中取出的值，操作数Y为经过符号扩展的立即数；下一个时钟上升沿，运算结果X+Y存入EXE/MEM的锁存器中；
+4) addi指令不需要写存，下一个时钟上升沿直接将相应的控制信号(regWrite)、写回的目的寄存器号、运算结果放入锁存器；
+5) 下一个时钟沿(读写分离的情况下，在上一个时钟的下降沿就写回了)，将运算结果写回通用寄存器组，指令执行完成。
