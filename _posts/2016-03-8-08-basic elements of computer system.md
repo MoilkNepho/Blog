@@ -17,4 +17,4 @@ excerpt: "在这写上摘记..."
 * 系统总线  
 为处理器、主存和I/O设备提供通信。  
 下图描绘了从顶层看到的计算机部件。处理器需要与主存进行数据交换，为此，它通常要使用两个内部寄存器：存储地址寄存器(MAR)，保存下一个要读/写的存储器的地址；存储器缓冲寄存器(MBR)，存放要写入或者读取存储器的数据；I/O AR和I/O BR功能与上类似。  
-![计算机部件]({{site.baseurl}}/assets/images/OS/computer%components.png)  
+![计算机部件]({{site.baseurl}}/assets/images/OS/computerComponents.png)  
