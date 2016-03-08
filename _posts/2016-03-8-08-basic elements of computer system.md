@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 1.1 计算机系统的基本构成
+title: 操作系统 - 1.1 计算机系统的基本构成
 tags:  [操作系统,处理器,CPU,I/O,Memory]
 categories: [操作系统]
 author: Moilk
