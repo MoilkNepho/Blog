@@ -15,6 +15,12 @@
       color: $primary-color;
       margin-right: $font-size-small;
     }
+
+    blockquote {
+      padding: 4px 20px;
+      font-size: 14px;
+      font-style: italic;
+    }
   }
 
   .info{
