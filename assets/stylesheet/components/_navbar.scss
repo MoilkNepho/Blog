@@ -6,14 +6,18 @@
   box-shadow: 1px 1px 3px $gray-darker;
 
   .navbar-brand {
-    height: 40px;
-    padding: 8px 12px;
-
-    color: $gray-lightest;
+    float: left;
+    height: 50px;
+    padding: 5px 5px;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 20px;
   }
 
   .navbar-brand:hover{
-    color: $blue;
+    color: blue;
   }
 
   .navbar-form {
