@@ -22,6 +22,11 @@
 })();
 </script>
 
+<!-- mathjax -->
+<script type="text/javascript"
+src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
 {% for script in page.scripts %}
   <script type="text/javascript" src="{{'/assets/script/' | append: script | prepend: site.baseurl }}"></script>
 {% endfor %}
