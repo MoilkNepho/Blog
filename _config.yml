@@ -22,7 +22,7 @@ highlighter: pygments
 
 # 地址设置
 baseurl: "/blog"
-url: "http://duras.wang/blog"
+url: "http://moilk.org/blog"
 
 
 # 分页设置
