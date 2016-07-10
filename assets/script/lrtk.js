@@ -22,9 +22,9 @@ window.onload = function () {
     var i = 0;
     var oTag = null;
 
-    oDiv = document.getElementById('myList');
+    oDiv = document.getElementById('tagCanvas');
 
-    aA = oDiv.getElementsByTagName('p');
+    aA = oDiv.getElementsByTagName('a');
 
     for (i = 0; i < aA.length; i++) {
         oTag = {};
