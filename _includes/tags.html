@@ -3,13 +3,13 @@
     <div class="panel-heading title">
         标签云
     </div>
-    <div class="panel-body list" id="tagContainer">
-        <canvas width="250" height="250" id="resCanvas">
+    <div class="panel-body list">
+        <div id="tagContainer">
             {% for tag in site.tags %}
             <a class="taglink" href="{{site.baseurl}}/tag/#{{tag.first}}" data-target-cate="#{{tag.first}}">
                 {{ tag.first }}
             </a>
             {% endfor %}
-        </canvas>
+        </div>
     </div>
 </div>

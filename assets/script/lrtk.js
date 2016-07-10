@@ -1,14 +1,14 @@
-var radius = 180;
-var dtr = Math.PI / 90;
-var d = 360;
+var radius = 100;
+var dtr = Math.PI / 100;
+var d = 200;
 
 var mcList = [];
 var active = false;
 var lasta = 1;
 var lastb = 1;
 var distr = true;
-var tspeed = 3;
-var size = 250;
+var tspeed = 1;
+var size = 180;
 
 var mouseX = 0;
 var mouseY = 0;
@@ -22,7 +22,7 @@ window.onload = function () {
     var i = 0;
     var oTag = null;
 
-    oDiv = document.getElementById('tagCanvas');
+    oDiv = document.getElementById('myList');
 
     aA = oDiv.getElementsByTagName('a');
 
@@ -192,7 +192,7 @@ function doPosition() {
         aA[i].style.left = mcList[i].cx + l - mcList[i].offsetWidth / 2 + 'px';
         aA[i].style.top = mcList[i].cy + t - mcList[i].offsetHeight / 2 + 'px';
 
-        aA[i].style.fontSize = Math.ceil(12 * mcList[i].scale / 2) + 8 + 'px';
+        aA[i].style.fontSize = Math.ceil(12 * mcList[i].scale / 2) + 4 + 'px';
 
         aA[i].style.filter = "alpha(opacity=" + 100 * mcList[i].alpha + ")";
         aA[i].style.opacity = mcList[i].alpha;

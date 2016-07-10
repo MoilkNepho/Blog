@@ -18,4 +18,18 @@
   .count{
     color: $primary-color;
   }
+
+  #tagContainer{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #tagContainer a{
+    font-size: 14px;
+    position: absolute;
+    color: teal;
+  }
 }
