@@ -23,6 +23,6 @@ window.onload = function() {
         TagCanvas.tc['resCanvas'].Wheel(false)
     } catch(e) {
         console.log(e);
-        document.getElementById('myCanvasContainer').style.display = 'none';
+        document.getElementById('tagContainer').style.display = 'none';
     }
 };

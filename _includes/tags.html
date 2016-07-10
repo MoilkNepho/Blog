@@ -3,7 +3,7 @@
     <div class="panel-heading title">
         标签云
     </div>
-    <div class="panel-body list">
+    <div class="panel-body list" id="tagContainer">
         <canvas width="250" height="250" id="resCanvas">
             {% for tag in site.tags %}
             <a class="taglink" href="{{site.baseurl}}/tag/#{{tag.first}}" data-target-cate="#{{tag.first}}">
