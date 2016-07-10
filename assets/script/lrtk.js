@@ -3,7 +3,7 @@ var dtr = Math.PI / 180;
 var d = 200;
 
 var mcList = [];
-var active = false;
+var active = true;
 var lasta = 1;
 var lastb = 1;
 var distr = true;
