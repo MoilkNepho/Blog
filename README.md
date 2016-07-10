@@ -5,4 +5,4 @@
  - 内容替换；
  - 多说评论框；
  - 代码高亮；
-* 欢迎访问:http://duras.wang/Blog/
+* 欢迎访问:http://moilk.org/blog/
