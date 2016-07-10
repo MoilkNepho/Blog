@@ -4,7 +4,7 @@
         标签云
     </div>
     <div class="panel-body list">
-        <canvas width="250" height="250" id="tagCanvas">
+        <canvas width="250" height="250" id="regCanvas">
             {% for tag in site.tags %}
             <a class="taglink" href="{{site.baseurl}}/tag/#{{tag.first}}" data-target-cate="#{{tag.first}}">
                 {{ tag.first }}
