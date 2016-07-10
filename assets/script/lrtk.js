@@ -22,7 +22,7 @@ window.onload = function () {
     var i = 0;
     var oTag = null;
 
-    oDiv = document.getElementById('myList');
+    oDiv = document.getElementById('tagContainer');
 
     aA = oDiv.getElementsByTagName('a');
 
