@@ -10,9 +10,9 @@
       height: 100%;
       padding: 10px;
 
-      background-color: $gray-lightest;
-      color: $gray-dark;
-      box-shadow: 1px 1px 3px $gray;
+      background-color: linear-gradient(#6B5 61%,#2A7 100%)
+      color: #BE0;
+      box-shadow: 2px 3px 6px #333;
     }
     .post-date{
       font-size: $font-size-small;
@@ -21,13 +21,13 @@
       }
     }
     .post-title{
-        color: $link-color;
+        color: #DE9;
     }
     a:hover{
       text-decoration: none;
 
       .post-title{
-          color: $hover-color;
+          color: #160;
       }
     }
   }
