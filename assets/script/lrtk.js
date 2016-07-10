@@ -1,5 +1,5 @@
 var radius = 100;
-var dtr = Math.PI / 100;
+var dtr = Math.PI / 180;
 var d = 200;
 
 var mcList = [];
@@ -8,7 +8,7 @@ var lasta = 1;
 var lastb = 1;
 var distr = true;
 var tspeed = 1;
-var size = 180;
+var size = 250;
 
 var mouseX = 0;
 var mouseY = 0;
