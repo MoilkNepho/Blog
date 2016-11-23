@@ -7,7 +7,14 @@
 <script type="text/javascript" src="{{site.baseurl}}/assets/script/lrtk.js"></script>
 
 <!-- 代码高亮 -->
-
+<link rel="stylesheet" href="{{site.baseurl}}/assets/script/prettify/prettify.css">
+<script src="{{site.baseurl}}/assets/script/prettify/prettify.js"></script>
+<script type="text/javascript">
+  $(function(){
+    $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto');
+    prettyPrint();
+  });
+</script>
 <!-- 百度自动推送 -->
 <script>
 (function(){
