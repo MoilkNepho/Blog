@@ -16,9 +16,6 @@ kramdown:
   use_coderay: false
   coderay:
     coderay_line_numbers:  nil
-highlighter: pygments
-
-
 
 # 地址设置
 baseurl: "/blog"
