@@ -1,90 +1,118 @@
-/* Pretty printing styles. Used with prettify.js.
- *
- * This version is slight modified based on the original version.
- *
- * Name:	Stanley Ng
- * Email: 	stanleyhlng@googlegroups.com
- * 
- * Reference:
- * http://code.google.com/p/google-code-prettify/source/browse/trunk/src/prettify.css
+/*
+ * Derived from einaros's Sons of Obsidian theme at
+ * http://studiostyl.es/schemes/son-of-obsidian by
+ * Alex Ford of CodeTunnel:
+ * http://CodeTunnel.com/blog/post/71/google-code-prettify-obsidian-theme
  */
-.pln {
-  color: #000; }
 
-.str {
-  color: #080; }
-
-.kwd {
-  color: #008;
-  font-weight: bold; }
-
-.com {
-  color: #800;
-  font-style: italic; }
-
-.typ {
-  color: #606;
-  font-weight: bold; }
-
-.lit {
-  color: #066; }
-
-.pun {
-  color: #660; }
-
-.opn {
-  color: #660; }
-
-.clo {
-  color: #660; }
-
-.tag {
-  color: #008;
-  font-weight: bold; }
-
-.atn {
-  color: #606; }
-
-.atv {
-  color: #080; }
-
-.dec {
-  color: #606; }
-
-.var {
-  color: #606; }
-
-.fun {
-  color: red; }
-
-/* Put a border around prettyprinted code snippets. */
-pre.prettyprint {
-  padding: 10px;
-  border: 1px solid #eee; }
-
-/* Specify class=linenums on a pre to get line numbering */
-ol.linenums {
-  margin: 0px; }
-
-ol.linenums li {
-  color: #BEBEC5;
-  line-height: 18px;
-  text-shadow: 0 1px 0 #FFFFFF; }
-
-li.L0,
-li.L1,
-li.L2,
-li.L3,
-li.L5,
-li.L6,
-li.L7,
-li.L8 {
-  list-style-type: normal; }
-
-/* Alternate shading for lines */
-li.L1,
-li.L3,
-li.L5,
-li.L7,
-li.L9 {
-  background: #ed7dcd7; }
+.str
+{
+    color: #EC7600;
+}
+.kwd
+{
+    color: #93C763;
+}
+.com
+{
+    color: #66747B;
+}
+.typ
+{
+    color: #678CB1;
+}
+.lit
+{
+    color: #FACD22;
+}
+.pun
+{
+    color: #F1F2F3;
+}
+.pln
+{
+    color: #F1F2F3;
+}
+.tag
+{
+    color: #8AC763;
+}
+.atn
+{
+    color: #E0E2E4;
+}
+.atv
+{
+    color: #EC7600;
+}
+.dec
+{
+    color: purple;
+}
+pre.prettyprint
+{
+    border: 0px solid #888;
+}
+ol.linenums
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.prettyprint {
+    background: #000;
+}
+li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9
+{
+    color: #555;
+    list-style-type: decimal;
+}
+li.L1, li.L3, li.L5, li.L7, li.L9 {
+    background: #111;
+}
+@media print
+{
+    .str
+    {
+        color: #060;
+    }
+    .kwd
+    {
+        color: #006;
+        font-weight: bold;
+    }
+    .com
+    {
+        color: #600;
+        font-style: italic;
+    }
+    .typ
+    {
+        color: #404;
+        font-weight: bold;
+    }
+    .lit
+    {
+        color: #044;
+    }
+    .pun
+    {
+        color: #440;
+    }
+    .pln
+    {
+        color: #000;
+    }
+    .tag
+    {
+        color: #006;
+        font-weight: bold;
+    }
+    .atn
+    {
+        color: #404;
+    }
+    .atv
+    {
+        color: #060;
+    }
+}
