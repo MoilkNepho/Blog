@@ -14,8 +14,6 @@ github_username: MoilkNepho
 kramdown:
   input:  GFM
   use_coderay: false
-  coderay:
-    coderay_line_numbers:  nil
 highlighter: pygments
 
 
