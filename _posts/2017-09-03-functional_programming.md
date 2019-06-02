@@ -56,7 +56,7 @@ reduce(add,[1,3,5,7,9])	# 1+3+5+7+9=25
 
 `filter()`函数接收两个参数，一个是函数，一个是`Iterable`，`filter`把传入的函数一次作用与每个元素，然后根据函数的返回值是`True`还是`False`决定保留还是丢弃该元素
 
-例如用[埃氏筛法](http://baike.baidu.com/view/3784258.htm)计算素数可以如下实现：
+例如用[埃氏筛法](https://baike.baidu.com/view/3784258.htm)计算素数可以如下实现：
 
 ```python
 # 定义一个生成器，构造从3开始的奇数序列
