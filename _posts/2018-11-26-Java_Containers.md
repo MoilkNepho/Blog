@@ -1,10 +1,10 @@
 ---
-layout: post
-title: Java中容器基础
-tags: [java,容器]
-category: [java]
-author: Moilk
-excerpt: "Java中容器基础"
+layout: post  
+title: Java中容器基础  
+tags: [java,容器]  
+category: [java]  
+author: Moilk  
+excerpt: "Java中容器基础"  
 ---
 
 ## 🧐 为什么要用容器？  

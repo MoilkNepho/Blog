@@ -1,9 +1,10 @@
 ---
-title: 调光技术
-tags: [硬件]
-category: [硬件]
-author: Moilk
-excerpt: "调光技术"
+layout: post  
+title: 调光技术  
+tags: [硬件]  
+category: [硬件]  
+author: Moilk  
+excerpt: "调光技术"  
 ---
 
 目前调光技术主要有三种形式：**正向电流调节**、**PWM调光**以及**可控硅电路调光**。
