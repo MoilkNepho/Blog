@@ -31,3 +31,12 @@ paginate_path: "page:num"
 sass:
     sass_dir: /assets/stylesheet
     style: :compressed
+
+# GitMent设置
+gitment:
+  enable: true
+  githubID: MoilkNepho
+  repo: blog
+  ClientID: 39587457ab8aabd98d18
+  ClientSecret: 14768f3ef851ddc213cd12c44655d10dd1dc025f
+  lazy: true
