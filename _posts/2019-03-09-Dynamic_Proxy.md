@@ -2,14 +2,12 @@
 layout: post  
 title: Java动态代理  
 tags: [java]  
-category: [java]  
+categories: [java]  
 author: Chaexsy  
 time: 20190516  
 ---
 
 > 转自：https://juejin.im/post/5ad3e6b36fb9a028ba1fee6a
-
-[TOC]
 
 ## 一、概述
 
