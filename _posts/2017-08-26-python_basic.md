@@ -2,7 +2,7 @@
 layoutL post  
 title: python中常用的数据类型  
 tags: [python]  
-category: [python]  
+categories: [python]  
 author: Moilk  
 ---
 

@@ -2,7 +2,7 @@
 layout: post  
 title: Java中容器基础  
 tags: [java,容器]  
-category: [java]  
+categories: [java]  
 author: Moilk  
 excerpt: "Java中容器基础"  
 ---

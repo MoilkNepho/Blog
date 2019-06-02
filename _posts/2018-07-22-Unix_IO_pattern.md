@@ -2,7 +2,7 @@
 layout: post
 title: Unix中的I/O模型
 tags: [unix]
-category: [network]
+categories: [network]
 author: Moilk
 excerpt: "Unix中的I/O模型"
 ---

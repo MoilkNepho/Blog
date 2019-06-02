@@ -2,7 +2,7 @@
 layout: post  
 title: Python生成器  
 tags: [python]  
-category: [python]  
+categories: [python]  
 author: Moilk  
 ---
 

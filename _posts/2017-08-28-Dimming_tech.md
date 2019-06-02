@@ -2,7 +2,7 @@
 layout: post  
 title: 调光技术  
 tags: [硬件]  
-category: [硬件]  
+categories: [硬件]  
 author: Moilk  
 excerpt: "调光技术"  
 ---

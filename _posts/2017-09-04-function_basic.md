@@ -2,7 +2,7 @@
 layoutL post  
 title: 函数的参数  
 tags: [python]  
-category: [python]  
+categories: [python]  
 author: Moilk  
 ---
 

@@ -2,7 +2,7 @@
 layout: post  
 title: Android Studio不停“scan file to index”  
 tags: [android]  
-category: [android]  
+categories: [android]  
 author: Moilk  
 ---
 

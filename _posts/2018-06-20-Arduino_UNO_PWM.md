@@ -2,7 +2,7 @@
 layout: post  
 title: Arduino UNO PWM机制  
 tags: [硬件]  
-category: [硬件]  
+categories: [硬件]  
 author: Moilk  
 excerpt: "调光技术"  
 ---

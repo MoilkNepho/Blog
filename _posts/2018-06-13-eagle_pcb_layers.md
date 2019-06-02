@@ -2,7 +2,7 @@
 layout: post  
 title: eagle中的层  
 Tags: [硬件]
-category: [硬件]  
+categories: [硬件]  
 author: moilk  
 ---
 
