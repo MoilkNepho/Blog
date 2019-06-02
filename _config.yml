@@ -14,7 +14,7 @@ github_username: MoilkNepho
 kramdown:
   input:  GFM
   use_coderay: false
-highlighter: pygments
+highlighter: rouge
 
 
 
