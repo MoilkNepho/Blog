@@ -1,5 +1,5 @@
 ---
-layoutL post  
+layout: post  
 title: python中常用的数据类型  
 tags: [python]  
 categories: [python]  

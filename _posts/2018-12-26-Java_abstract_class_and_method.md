@@ -1,5 +1,5 @@
 ---
-layoutL: post  
+layout:: post  
 title: Java中的抽象类和抽象方法  
 tags: [java]  
 categories: [java]  

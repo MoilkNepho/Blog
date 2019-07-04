@@ -1,5 +1,5 @@
 ---
-layoutL post  
+layout: post  
 title: 函数的参数  
 tags: [python]  
 categories: [python]  

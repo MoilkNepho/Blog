@@ -82,4 +82,3 @@ Java中`set`有三种常见的实现，他们主要的区别是元素的存储�
 `Map`是保存“键值对”的一种数据结构，而在Java中`Map`是一种接口，而`Map`具体的实现常见的有三种：`HashMap`、`LinkedHashMap`和`TreeMap`，之间的区别也是存储方式的差异，与`Set`中的情况类似。  
 
 除了以上三种外，Java中的`Hashtable`也实现了`Map`接口，`Hashtable`出现的时间在`HashMap`之前，目前一般认为`Hashtable`是一种过时了的类，它和`HashMap`最大的区别就是`Hashtable`是线程安全的，所以效率会比`HashMap`低。Java官方文档也指出，如果没有线程安全的需求，推荐使用`HashMap`，而如果是在有线程安全需求的高并发应用中，则推荐使用 `ConcurrentHashMap`。  
-

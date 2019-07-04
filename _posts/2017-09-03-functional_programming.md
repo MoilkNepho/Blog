@@ -1,5 +1,5 @@
 ---
-layoutL post  
+layout: post  
 title: 函数式编程  
 tags: [python]  
 categories: [python]  
